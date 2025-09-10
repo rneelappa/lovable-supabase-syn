@@ -1,0 +1,55 @@
+{
+  "name": "lovable-supabase-sync",
+  "version": "1.0.0",
+  "description": "A powerful, reusable tool for synchronizing any Git repository with any Supabase project",
+  "main": "scripts/supabase-sync.sh",
+  "bin": {
+    "supabase-sync": "./scripts/supabase-sync.sh"
+  },
+  "scripts": {
+    "install": "./install.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rneelappa/lovable-supabase-sync.git"
+  },
+  "keywords": [
+    "supabase",
+    "git",
+    "sync",
+    "database",
+    "migration",
+    "devops",
+    "automation",
+    "docker",
+    "conflict-resolution"
+  ],
+  "author": "Rajkumar Neelappa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rneelappa/lovable-supabase-sync/issues"
+  },
+  "homepage": "https://github.com/rneelappa/lovable-supabase-sync#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "files": [
+    "scripts/",
+    "config/",
+    "examples/",
+    "docs/",
+    "install.sh",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "supabase": ">=1.0.0"
+  }
+}
